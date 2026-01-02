@@ -1,0 +1,15 @@
+# Fallback requirements without lap dependency
+# Use this if the main requirements.txt fails to install
+
+ultralytics>=8.0.196
+opencv-python-headless>=4.8.1.78
+numpy>=1.26.4
+pandas>=2.1.1
+streamlit>=1.36.0
+plotly>=5.15.0
+pillow>=10.0.0
+psutil>=5.9.0
+
+# Note: Without lap module, tracking will be disabled
+# The app will fall back to detection-only mode
+# This is still fully functional for red light violation detection

@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  red-light-detection:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./violations:/app/violations
+      - ./results:/app/results
+      - ./charts:/app/charts
+    environment:
+      - STREAMLIT_SERVER_PORT=8501
+      - STREAMLIT_SERVER_HEADLESS=true
+    restart: unless-stopped
+
+
