@@ -11,6 +11,7 @@ This project detects vehicles in a video stream and automatically flags **red li
 - **Customizable Parameters** for adapting to real-world conditions  
 
 ## 🖼 Demo  
+## 🔗 https://traffic-violation-detection1-8qdkquxynwvd653hxpjcx6.streamlit.app/
 <img width="2508" height="1408" alt="image" src="https://github.com/user-attachments/assets/e2d12011-5059-4b62-a0c7-06b46db4101f" />
 
 ---
